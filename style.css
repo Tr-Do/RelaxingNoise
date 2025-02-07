@@ -1,0 +1,26 @@
+body {
+    background-color: #8ecae6 !important;
+    height: 100%;
+
+}
+
+
+.btn {
+    background-color: #8ecae6;
+    border: 2px solid #a2d2ff !important;
+    padding: 2rem 2.5rem !important;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+button:hover {
+    background-color: #669bbc !important;
+}
+
+.footer {
+    text-align: center;
+    background-color: #003049;
+    color: white;
+}
