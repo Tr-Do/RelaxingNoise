@@ -5,12 +5,12 @@ document.querySelectorAll('button').forEach(button => {
 
     button.addEventListener('click', function () {
         if (isPlaying) {
+            button.style.backgroundColor = '#8ecae6';
             sound.pause();
             sound.currentTime = 0;
-            button.style.backgroundColor = '#8ecae6';
         } else {
-            sound.play();
             button.style.backgroundColor = '#669bbc';
+            sound.play();
         }
         isPlaying = !isPlaying;
     });
